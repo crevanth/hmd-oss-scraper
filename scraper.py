@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import re
-import json # NEW: Import the json library
+import json
 
 def scrape_hmd_opensource():
     """Scrapes the HMD website for device open source files."""
@@ -37,7 +37,6 @@ def scrape_hmd_opensource():
                     href = 'https://' + href
                 
                 if version_name and href:
-                    # Storing as a dictionary for clarity in JSON
                     versions_with_links.append({"name": version_name, "link": href})
             
             if versions_with_links:
@@ -45,8 +44,7 @@ def scrape_hmd_opensource():
 
     return devices
 
-# NEW: Function to read data from the JSON file
-def read_from_json(filename="hmd_versions.json"):
+def read_from_json(filename="data/hmd_releases.json"):
     """Reads device data from the JSON file."""
     if not os.path.exists(filename):
         return {}
@@ -57,13 +55,12 @@ def read_from_json(filename="hmd_versions.json"):
         print(f"Warning: Could not decode JSON from {filename}. Starting fresh.")
         return {}
 
-# NEW: Function to write data to the JSON file
-def write_to_json(devices, filename="hmd_versions.json"):
+def write_to_json(devices, filename="data/hmd_releases.json"):
     """Writes device data to the JSON file with nice formatting."""
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(devices, f, indent=2)
 
-def write_to_shell_script(devices, filename="hmd_versions.sh"):
+def write_to_shell_script(devices, filename="data/hmd_releases.sh"):
     """Writes the device data to a shell script file."""
     with open(filename, 'w', encoding='utf-8') as f:
         f.write("#!/bin/bash\n")
@@ -80,8 +77,11 @@ def write_to_shell_script(devices, filename="hmd_versions.sh"):
             f.write(")\n\n")
 
 if __name__ == "__main__":
-    JSON_FILENAME = "hmd_versions.json"
-    SHELL_FILENAME = "hmd_versions.sh"
+    JSON_FILENAME = "data/hmd_releases.json"
+    SHELL_FILENAME = "data/hmd_releases.sh"
+    
+    # Ensure the output directory exists
+    os.makedirs(os.path.dirname(JSON_FILENAME), exist_ok=True)
 
     print(f"Checking for existing file '{JSON_FILENAME}'...")
     old_data = read_from_json(JSON_FILENAME)
@@ -91,7 +91,6 @@ if __name__ == "__main__":
     if not new_data:
         print("Could not retrieve new data. Exiting.")
     else:
-        # The most reliable way to check for changes is to compare the structured data directly.
         if old_data == new_data:
             print(f"\nNo new versions found. Files are already up-to-date.")
         else:

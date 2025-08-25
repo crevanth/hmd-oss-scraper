@@ -11,7 +11,6 @@ jobs:
   update-versions:
     runs-on: ubuntu-latest
     
-    # Grants the GITHUB_TOKEN write permissions for this job
     permissions:
       contents: write
 
@@ -30,12 +29,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Python scraper
-        run: python hmd_scraper.py
+        run: python scraper.py
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated update of HMD open source versions"
-          file_pattern: "hmd_versions.json hmd_versions.sh"
+          file_pattern: "data/hmd_releases.json data/hmd_releases.sh"
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"

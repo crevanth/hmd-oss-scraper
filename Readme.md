@@ -11,15 +11,15 @@ This repo solves that problem. It's a simple, automated tracker that scrapes the
 The process is fully automated using GitHub Actions:
 
 1.  **Schedule:** The workflow runs twice a week (Mon & Thurs @ 6:03 PM IST). It can also be triggered manually from the Actions tab.
-2.  **Scrape:** It runs the `hmd_scraper.py` script to fetch the latest device list from HMD's website.
-3.  **Compare & Commit:** The script compares the new data to the existing `hmd_versions.json`. If anything has changed, the script updates both the JSON and the `.sh` files, and the workflow commits the changes back to this repo. If there are no changes, no new commit is made.
+2.  **Scrape:** It runs the `scraper.py` script to fetch the latest device list from HMD's website.
+3.  **Compare & Commit:** The script compares the new data to the existing `data/hmd_versions.json`. If anything has changed, the script updates both the JSON and the `.sh` files, and the workflow commits the changes back to this repo. If there are no changes, no new commit is made.
 
 ## The Files
 
 The scraper generates two key files:
 
-*   `hmd_versions.json`: The primary data file. It's structured and easy to parse, making it perfect for use in other scripts or projects.
-*   `hmd_versions.sh`: A shell script that sources the same data into a Bash array. Provided for convenience.
+*   `data/hmd_versions.json`: The primary data file. It's structured and easy to parse, making it perfect for use in other scripts or projects.
+*   `data/hmd_versions.sh`: A shell script that sources the same data into a Bash array. Provided for convenience.
 
 ## Disclaimer
 
