@@ -1,4 +1,48 @@
 {
+  "HMD Fusion": [
+    {
+      "name": "HMD_Fusion_V1.130.tar",
+      "link": "https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HMD_Fusion_V1.130.tar.bz2"
+    }
+  ],
+  "HMD Skyline": [
+    {
+      "name": "HMD_Skyline_V1.170.tar",
+      "link": "https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HMD_Skyline_V1.170.tar.bz2"
+    },
+    {
+      "name": "HMD_Skyline_V1.280.tar",
+      "link": "https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HMD_Skyline_V1.280.tar.bz2"
+    },
+    {
+      "name": "HMD_Skyline_V1.380.tar",
+      "link": "https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HMD_Skyline_V1.380.tar.bz2"
+    }
+  ],
+  "HMD Pulse": [
+    {
+      "name": "HMDPulse_V2.170.tar",
+      "link": "https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HMDPulse_V2.170.tar.bz2"
+    }
+  ],
+  "HMD Pulse Pro": [
+    {
+      "name": "HMDPulsePro_V2.170.tar",
+      "link": "https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HMDPulsePro_V2.170.tar.bz2"
+    }
+  ],
+  "HMD Pulse+": [
+    {
+      "name": "HMDPulse+_V2.170.tar",
+      "link": "https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HMDPulse+_V2.170.tar.bz2"
+    }
+  ],
+  "HMD T21": [
+    {
+      "name": "HmdT21_V3.210.tar.bz2",
+      "link": "https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HmdT21_V3.210.tar.bz2"
+    }
+  ],
   "HMD Vibe": [
     {
       "name": "HMDVibe_V1.040.tar.bz2",

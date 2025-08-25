@@ -2,6 +2,52 @@
 # This script contains open source version information and download links for HMD devices.
 # Generated automatically. Device order matches the HMD website.
 
+DEVICE_HUMAN="HMD Fusion"
+# Oldest -> Newest
+VERSIONS=(
+  # https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HMD_Fusion_V1.130.tar.bz2
+  "HMD_Fusion_V1.130.tar"
+)
+
+DEVICE_HUMAN="HMD Skyline"
+# Oldest -> Newest
+VERSIONS=(
+  # https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HMD_Skyline_V1.170.tar.bz2
+  "HMD_Skyline_V1.170.tar"
+  # https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HMD_Skyline_V1.280.tar.bz2
+  "HMD_Skyline_V1.280.tar"
+  # https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HMD_Skyline_V1.380.tar.bz2
+  "HMD_Skyline_V1.380.tar"
+)
+
+DEVICE_HUMAN="HMD Pulse"
+# Oldest -> Newest
+VERSIONS=(
+  # https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HMDPulse_V2.170.tar.bz2
+  "HMDPulse_V2.170.tar"
+)
+
+DEVICE_HUMAN="HMD Pulse Pro"
+# Oldest -> Newest
+VERSIONS=(
+  # https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HMDPulsePro_V2.170.tar.bz2
+  "HMDPulsePro_V2.170.tar"
+)
+
+DEVICE_HUMAN="HMD Pulse+"
+# Oldest -> Newest
+VERSIONS=(
+  # https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HMDPulse+_V2.170.tar.bz2
+  "HMDPulse+_V2.170.tar"
+)
+
+DEVICE_HUMAN="HMD T21"
+# Oldest -> Newest
+VERSIONS=(
+  # https://hmdcorporate.blob.core.windows.net/opensource/download/phones/HmdT21_V3.210.tar.bz2
+  "HmdT21_V3.210.tar.bz2"
+)
+
 DEVICE_HUMAN="HMD Vibe"
 # Oldest -> Newest
 VERSIONS=(
@@ -44,6 +90,12 @@ DEVICE_HUMAN="Nokia G21"
 VERSIONS=(
   # https://hmdcorporate.blob.core.windows.net/opensource/download/phones/NokiaG21_v1.030.tar.bz2
   "NokiaG21_v1.030.tar.bz2"
+  # https://hmdcorporate.blob.core.windows.net/opensource/download/phones/NokiaG21_v1.090.tar.bz2
+  "NokiaG21_v1.090.tar.bz2"
+  # https://hmdcorporate.blob.core.windows.net/opensource/download/phones/NokiaG21_v1.160.tar.bz2
+  "NokiaG21_v1.160.tar.bz2"
+  # https://hmdcorporate.blob.core.windows.net/opensource/download/phones/NokiaG21_v1.570.tar.bz2
+  "NokiaG21_v1.570.tar.bz2"
 )
 
 DEVICE_HUMAN="Nokia G60 5G"
