@@ -280,5 +280,79 @@
       "name": "Nokia8.1_V7.21E.tar.bz2",
       "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia8.1_V7.21E.tar.bz2"
     }
+  ],
+"Nokia 3": [
+    {
+      "name": "Nokia3_V1.47G.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V1.47G.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V2.15A.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V2.15A.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V3.310.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V3.310.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.120.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.120.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.12A.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.12A.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.12B.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.12B.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.12D.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.12D.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.180.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.180.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.18A.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.18A.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.18B.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.18B.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.18C.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.18C.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.18D.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.18D.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.220.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.220.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.22A.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.22A.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.22B.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.22B.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.22C.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.22C.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.22D.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.22D.tar.bz2"
+    },
+    {
+      "name": "Nokia3_V5.230.tar.bz2",
+      "link": "https://nokiaphones-opensource.azureedge.net/download/phones/Nokia3_V5.230.tar.bz2"
+    }
   ]
 }
